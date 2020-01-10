@@ -108,7 +108,6 @@ public class Homework_2 {
                         check++;
                     }
                 }
-
             }
             if (check > 0) {
                 System.out.println("Not this");
