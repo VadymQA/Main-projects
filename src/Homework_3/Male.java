@@ -8,6 +8,23 @@ public class Male extends Human{
         super(sex, name, secondName, height, mass);
     }
 
+    public Male() {
+
+    }
+
+
+    @Override
+    public String
+    toString() {
+        return "Male{" +
+                "sex=" + sex +
+                ", name='" + name + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", height=" + height +
+                ", mass=" + mass +
+                '}';
+    }
+
     public void solveProblem () {
 
         System.out.println("Problem is solved");
